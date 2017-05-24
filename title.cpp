@@ -49,7 +49,7 @@ int main(){
 }
 //adding vertex to graph if not already used
 void vertex(vector<char*> &ver){
-  char label[16];
+  char label[16];//has to be a char pointer 
   cout << "Enter name for vertex: " << endl;
   cin >> label;
   //check to make sure it is already not in the graph, through iteration
