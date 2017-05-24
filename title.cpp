@@ -60,7 +60,7 @@ void vertex(vector<char*> &ver){
 void print(vector<char*> ver){
   int size = ver.size();
   cout << "Size of Vertex: " << size << endl;
-  for(int i = 0;i < size;i++){
+  for(int i = 0;i < size;i++){//Maybe do an iterator instead, ver.begin() until ver.end()
     cout << ver[i] << " , " << endl;
   }
   if(size == 0){
